@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta
+  name="description"
+  content="The personal portfolio of Sara Almugbel, a Software Engineering student."
+>
+<title>Sara Almugbel | Portfolio</title>
+
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+  <nav>
+    <h2>Sara Almugbel</h2>
+
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <p>Hello, my name is</p>
+    <h1>Sara Almugbel</h1>
+    <h2>Software Engineering Student</h2>
+
+    <p>
+      I am a Software Engineering student at KFUPM with an interest
+      in web development and artificial intelligence. I enjoy learning
+      new technologies and using them to create useful applications.
+    </p>
+  </section>
+
+ <section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="projects-container">
+    <article class="project-card">
+      <div class="project-image">
+        <span>Project 1</span>
+      </div>
+
+      <h3>Smart Study Planner</h3>
+
+      <p>
+        A student-focused web application that helps students organize
+        their tasks, deadlines, and study goals.
+      </p>
+    </article>
+
+    <article class="project-card">
+      <div class="project-image">
+        <span>Project 2</span>
+      </div>
+
+      <h3>Campus Connect</h3>
+
+      <p>
+        A platform that helps university students discover campus clubs,
+        events, and volunteering opportunities.
+      </p>
+    </article>
+  </div>
+</section>
+
+  <section id="contact">
+  <h2>Contact Me</h2>
+
+  <p>If you have a question or opportunity, send me a message.</p>
+
+  <form id="contact-form">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Enter your name"
+      required
+    >
+
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Enter your email"
+      required
+    >
+
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="5"
+      placeholder="Write your message"
+      required
+    ></textarea>
+
+    <button type="submit">Send Message</button>
+
+    <p id="form-message"></p>
+  </form>
+</section>
+</main>
+
+<footer>
+  <p>© 2026 Sara Almugbel</p>
+</footer>
+
+</body>
+</html>
