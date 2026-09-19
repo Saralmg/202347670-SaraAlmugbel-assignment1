@@ -110,14 +110,10 @@ h1 {
 }
 
 .project-image {
-  align-items: center;
-  background-color: #ead8df;
-  color: #7b2744;
-  display: flex;
-  font-size: 1.5rem;
-  font-weight: bold;
+  display: block;
   height: 220px;
-  justify-content: center;
+  object-fit: cover;
+  width: 100%;
 }
 
 .project-card h3 {
